@@ -1,0 +1,223 @@
+body{
+    margin-top:0%;
+    margin-left: 0%;
+    background-image: url("../assets/Images/hawaii.jpg");
+    /*background-size:contain;*/
+    /*background-origin: content-box;*/
+    background-size: cover;
+    background-position: center;
+}
+
+
+header{
+    width: 100%;
+    max-width: 100%px;
+    background-color: #f5ecec;
+    display: flex;
+    
+}
+
+header nav{
+    height: 40px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5ecec;
+}
+
+nav ul {
+ display: flex;
+ background-color: #f5ecec;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+}
+
+/* estilo para poner color al link cuando doy click*/
+li a:active{
+    color:#DB7A4E
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    
+}
+.menucito {
+    text-align: center;
+}
+
+
+
+
+/* todas las secciónes*/
+.iceland{
+    width: 100%;
+    max-width: 1268px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: rgba(0, 0, 0, 0);
+   }
+
+   .hawaii{
+    width: 100%;
+    max-width: 1268px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: rgba(0, 0, 0, 0);
+   }
+
+   .greece{
+    width: 100%;
+    max-width: 1268px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: rgba(0, 0, 0, 0);
+   }
+
+
+   /* la clase servicios */
+.iceland .servicios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: justify;
+    padding:0vw;
+    background-color: white;
+}
+
+.hawaii .servicios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: justify;
+    padding:0vw;
+    background-color: white;
+}
+
+.greece .servicios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: justify;
+    padding:0vw;
+    background-color: white;
+}
+
+.servicios li{
+    margin-top: 20px;
+    background-color: #FEFAF5;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+       
+}
+.iceland h3{
+    color: white;
+    font-size: 40px;
+}
+
+.hawaii h3{
+    color: white;
+    font-size: 40px;
+}
+
+.greece h3{
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+
+
+/* titulo de las cajas*/
+.iceland .servicios h3{
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin:0px 10px 15px 10px;
+
+}
+
+.hawaii .servicios h3{
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin:0px 10px 15px 10px;
+
+}
+
+.greece .servicios h3{
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin:0px 10px 15px 10px;
+
+}
+
+footer{
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    background-color:#FEFAF5;
+    display: flex;
+    flex-direction: row;
+    line-height: normal;
+}
+.logo{
+    color: #335576;
+    font-size: 15px;
+    padding: 0 80px;
+    font-weight: bold;
+    letter-spacing: normal;
+    
+}
+
+.abajo{
+    display: flex;
+    flex-direction: row;
+}
+.hours .horario{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.redes{
+    display: flex;
+    
+}
+
+.redes .social {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}

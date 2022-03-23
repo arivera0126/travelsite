@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    overflow: hidden;
+}
+
+/* caracteristicsas del link*/
+li a{
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+/* estilo para poner color al link cuando doy click*/
+li a:active{
+    color:#DB7A4E
+}
+
